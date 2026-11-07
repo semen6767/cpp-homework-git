@@ -4,16 +4,16 @@
 #include <utility>
 
 enum class Department {
-    Therapy,     // Терапия
-    Surgery,     // Хирургия
-    Cardiology,  // Кардиология
+    Therapy,     
+    Surgery,     
+    Cardiology,  
     Unknown
 };
 
 enum class PatientState {
-    InQueue,     // В очереди
-    InTreatment, // Лечится
-    Discharged   // Выписан
+    InQueue,     
+    InTreatment, 
+    Discharged   
 };
 
 std::string departmentToString(Department d);
